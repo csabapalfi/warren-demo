@@ -1,0 +1,14 @@
+rabbitmq1:
+  image: rabbitmq:3-management
+  environment:
+   - "RABBITMQ_NODENAME=my-rabbit-1"
+  ports:
+   - "5672:5672"
+   - "15672:15672"
+rabbitmq2:
+  image: rabbitmq:3-management
+  environment:
+   - "RABBITMQ_NODENAME=my-rabbit-2"
+  ports:
+   - "5673:5672"
+   - "15673:15672"

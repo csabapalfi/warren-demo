@@ -1,0 +1,7 @@
+{
+  "name": "warren-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "warren": "^1.0.0"
+  }
+}
